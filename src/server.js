@@ -1,8 +1,8 @@
-const express = require('express')
-const app = express()
+const express = require("express");
+const app = express();
 
-app.get('/student_id', (req, res) => {
-    res.send('NO_ONE')
-})
+app.get("/student_id", (req, res) => {
+  res.send("61070154");
+});
 
-module.exports = app
+module.exports = app;
